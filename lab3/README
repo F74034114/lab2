@@ -1,0 +1,30 @@
+計算的時間複雜度（最差、平均、和最好表現），依據串列（list）的大小(n)。一般而言，好的表現是O(n log n)，且壞的表現是O(n2)。對於一個排序理想的表現是O(n)。僅使用一個抽象關鍵比較運算的排序演算法總平均上總是至少需要O(n log n)。
+
+1000
+
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0 seconds
+v1/v2 are the same.
+
+
+10000
+
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.27 seconds
+v1/v2 are the same.
+
+100000
+
+sort(): 0.04 seconds
+v1/v2 are different.
+insertion_sort(): 128.32 seconds
+v1/v2 are the same.
+
+100000
+
+sort():0.51seconds
+v1/v2 are different.
+insertion_sort():12795.2seconds
+v1/v2 are the same.
